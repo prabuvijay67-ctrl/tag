@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Professional Home Page</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        /* Navigation Bar */
+        header {
+            background: #2c3e50;
+            color: #fff;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            max-width: 1200px;
+            margin: auto;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #1abc9c;
+        }
+
+        /* Hero Section */
+        .hero {
+            height: 100vh;
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+                        url('https://unsplash.com') no-repeat center center/cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+            padding: 0 20px;
+        }
+        .hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 10px;
+        }
+        .btn {
+            background: #1abc9c;
+            color: white;
+            padding: 12px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.2rem;
+            margin-top: 20px;
+        }
+
+        /* Footer */
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">MyBrand</div>
+            <div class="links">
+                <a href="#">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Welcome to My Website</h1>
+        <p>Built with clean HTML and modern CSS</p>
+        <a href="#services" class="btn">Get Started</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 MyBrand. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
